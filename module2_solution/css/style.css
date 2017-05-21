@@ -1,0 +1,117 @@
+/*********Base Styles***********/
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+	font-size: 18;
+	font-family: 'Arvo', serif;
+}
+.header{
+	padding:5%;
+	text-align: center;
+	margin-top:2.5%;
+	font-weight: bold;
+	font-size: 175%;
+	
+}
+.Sections_Container{
+
+margin-bottom: 5%;
+
+}
+.Section{
+	border:2px solid black;
+	padding: 35px 2.5% 2.5% 2.5%;
+	float: left;
+	width: 30%;
+	margin: 2.5%;
+	position: relative;
+	background-color: lightgrey;
+
+
+
+}
+
+#Chicken{
+background-color: pink;
+}
+#Beef{
+	background-color: #ff4d4d;
+	color:#fff;
+}
+#Sushi{
+background-color:  #ffcc66;
+color: #000;
+}
+.Section_title{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	width: 35%;
+	font-size: 125%;
+
+}
+.Section_content{
+	
+	text-align: justify;
+
+}
+.clear{
+	clear: left;
+	display: block;
+}
+
+/***********Desktop View************/
+@media (min-width: 992px){
+.Section1{
+	margin-right:1.25%;
+}
+.Section2{
+	margin-left:1.25%;
+	margin-right: 1.25%;
+}
+.Section3{
+	margin-left:1.25%;
+}
+}
+
+/***************Tablet View*****************/
+@media (min-width: 768px) and (max-width: 991px){
+
+	.Sections_Container{
+		padding: 2.5%;
+	}
+	.Section1{
+		width:46%;
+		margin: 1.25%;
+		margin-left: 2.5%;
+margin-bottom: 0;
+		padding-top: 35px;
+	}
+	.Section2{
+		width:46%;
+		margin: 1.25%;
+margin-right: 2.5%;
+		padding-top: 35px;
+		margin-bottom: 0;
+	}
+	.Section3{
+		width: 95%;
+		margin: 2.5%;
+		padding-top: 35px;
+
+	}
+}
+/***************Tablet View*****************/
+@media (max-width: 767px){
+	.Section1,.Section2,.Section3{
+		width:90%;
+		margin: 2.5% 5%;
+		padding-top: 35px;
+	}
+	
+}
