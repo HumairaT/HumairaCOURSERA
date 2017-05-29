@@ -1,0 +1,101 @@
+body {
+  font-size: 16px;
+  color: #604020;
+  background-color: #ffff99;
+  font-family: 'Arimo', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #bf8040;
+  border-radius: 0;
+  border: 0;
+
+
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top:25px;
+
+}
+
+.navbar-brand h1 { /*FOOD LLC */
+  font-family: 'Arimo', sans-serif;
+  color: #ffff00;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .1;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list li a {
+  color:  #ffff00;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list li a:hover {
+  background: #ffff00;
+  color:#bf8040;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffff00;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+
+
+}
+#Menu_heading{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.item-tile{
+  background-color: #cccc00;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: relative;
+   border: 2px solid #bf8040;
+}
+.item-tile h2{
+  color: #bf8040;
+  background-color: #ffff00;
+  position: absolute;
+  width: 100%;
+  top:0px;
+  right:0px;
+  margin-top: 0px;
+  border-bottom: 2px solid #bf8040;
+}
+.item-tile p{
+  padding-top: 30px;
+}
+/* END HEADER */
+
+@media(max-width: 767px){
+  .navbar-brand {
+  padding-top:30px;
+
+}
+
+}
