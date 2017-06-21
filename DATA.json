@@ -1,8 +1,8 @@
 var d=[
 {
-"name"="LUIS HENRIQUE BIZARRO",
-"area"="development",
+"name":"LUIS HENRIQUE BIZARRO",
+"area":"development",
 
-"skills"=[ "Angular","Bodymovin","GLSL","GreenSock Animation Platform","JavaScript","Phaser","Pixi.js","React","Three.js","Vue","WebGL"]
+"skills":[ "Angular","Bodymovin","GLSL","GreenSock Animation Platform","JavaScript","Phaser","Pixi.js","React","Three.js","Vue","WebGL"]
 }
 ]
