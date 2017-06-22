@@ -3,5 +3,11 @@ var d=[{
 "area":"development",
 
 "skills":[ "Angular","Bodymovin","GLSL","GreenSock Animation Platform","JavaScript","Phaser","Pixi.js","React","Three.js","Vue","WebGL"]
+},
+{
+"name":"LUIS HENRIQUE BIZARRO",
+"area":"development",
+
+"skills":[ "Angular","Bodymovin","GLSL","GreenSock Animation Platform","JavaScript","Phaser","Pixi.js","React","Three.js","Vue","WebGL"]
 }
 ]
